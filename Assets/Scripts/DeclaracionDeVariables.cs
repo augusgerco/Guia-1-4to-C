@@ -9,10 +9,19 @@ public class DeclaracionDeVariables : MonoBehaviour
     string nombreAlumno;
     bool estaAprobado;
 
+
     // Start is called before the first frame update
-    void Start()
+    void Start() // para imprimir siempre usar void Start
     {
-        
+        cantidadAlumnos = 32;
+        kilosVendidos = 23.7f;
+        nombreAlumno = "Augusto";
+        estaAprobado = false;
+
+        Debug.Log(cantidadAlumnos);
+        Debug.Log(kilosVendidos);
+        Debug.Log(nombreAlumno);
+        Debug.Log(estaAprobado);
     }
 
     // Update is called once per frame
